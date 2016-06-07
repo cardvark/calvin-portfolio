@@ -1,0 +1,59 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #747704;
+}
+
+a {
+    color: #747704;
+}
+
+.text-muted {
+    color: #BCBBBB;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.title-super {
+    font-size: 60px;
+}
+
+.title-logo {
+    margin-top: 30px;
+    width: 100px;
+}
+
+.text-feature-spacing {
+    margin-bottom: 30px;
+}
+
+
+/*
+Used code from https://css-tricks.com/crop-top/
+
+Cropped image in <section> element.
+
+*/
+.crop-height {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.section-image .img-feature {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+    width: auto;
+    -ms-interpolation-mode: bicubic;
+}
+
+.crop-height-feature {
+    max-height: 360px;
+    overflow: hidden;
+}
+
+.img-feature {
+    max-width: 555px;
+}
