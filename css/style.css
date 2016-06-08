@@ -1,25 +1,3 @@
-@media only screen and (max-width: 400px) {
-/*    div {
-        background-color: blue;
-    }*/
-
-    h2 {
-        font-size: 3.5em;
-    }
-
-    h3 {
-        font-size: 2.5em;
-    }
-
-    p {
-        font-size: 1.5em;
-    }
-
-    img {
-        min-height: 250px;
-    }
-}
-
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -78,4 +56,30 @@ Cropped image in <section> element.
 
 .img-feature {
     max-width: 555px;
+}
+
+@media only screen and (max-width: 400px) {
+/*    div {
+        background-color: blue;
+    }*/
+
+    h2 {
+        font-size: 3.5em;
+    }
+
+    h3 {
+        font-size: 2.5em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    .img-feature {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+    width: auto;
+    -ms-interpolation-mode: bicubic;
+    }
 }
