@@ -8,8 +8,12 @@ a {
     color: #747704;
 }
 
+.section-main {
+    margin-top: 10px;
+}
+
 .text-muted {
-    color: #BCBBBB;
+    color: #bcbbbb;
 }
 
 .text-thin {
